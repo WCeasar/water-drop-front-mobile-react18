@@ -17,6 +17,17 @@ module.exports = {
     'react/jsx-indent': 0,
     'no-console': 'off',
     'object-curly-newline': 'off',
+    'import/no-extraneous-dependencies': 0,
+    'react/jsx-wrap-multilines': 0,
+    'react/jsx-indent': 0,
+    'no-console': 'off',
+    'object-curly-newline': 'off',
+    "@typescript-eslint/indent":"off",
+    "no-empty-pattern":'off',
+    "react/button-has-type":'off',
+    "prefer-template":"off",
+    "react/jsx-curly-brace-presence":"off",
+    "arrow-body-style":"off"
   },
   parser: require.resolve('@typescript-eslint/parser'),
   parserOptions: {
